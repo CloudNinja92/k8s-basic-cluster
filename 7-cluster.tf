@@ -28,7 +28,7 @@ resource "google_container_cluster" "primary" {
   }
 
   workload_identity_config {
-    workload_pool = "primary-sandbox-project.svc.id.goog"
+    workload_pool = "${var.project}.svc.id.goog"
   }
 
   ip_allocation_policy {

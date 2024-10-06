@@ -10,7 +10,7 @@ terraform {
   backend "gcs" {
     bucket = "amcdonald-k8s-state"
     prefix = "terraform/state"
-    credentials = "primary-sandbox-project-3ccca0fb815d.json"
+    credentials = "tranquil-well-436319-a1-2a762ce9af6f.json"
   }
 
 }
@@ -20,7 +20,7 @@ provider "google" {
   project = var.project
   region = "us-central1"
   zone = var.zone
-  credentials = "primary-sandbox-project-3ccca0fb815d.json"
+  credentials = "tranquil-well-436319-a1-2a762ce9af6f.json"
 }
 
 

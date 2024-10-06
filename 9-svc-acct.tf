@@ -1,4 +1,4 @@
-# https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/google_service_account
+/* https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/google_service_account
 resource "google_service_account" "service-a" {
   account_id = "service-a"
 }
@@ -16,3 +16,4 @@ resource "google_service_account_iam_member" "service-a" {
   role               = "roles/iam.workloadIdentityUser"
   member             = "serviceAccount:${var.project}.svc.id.goog[staging/service-a]"
 }
+*/

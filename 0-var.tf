@@ -5,7 +5,7 @@ variable "zone" {
 }
 
 variable "project" {
-  description = "The GCP project ID"
+  description = "Put project ID here"
   type        = string
-  default     = "primary-sandbox-project"  # You can set a default value or leave it empty
+  default     = "tranquil-well-436319-a1"  # You can set a default value or leave it empty
 }
